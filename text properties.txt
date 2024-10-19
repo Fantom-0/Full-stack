@@ -1,0 +1,6 @@
+text-align
+font-weight
+text-decoration
+line-height
+letter-spacing
+font-size

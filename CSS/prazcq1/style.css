@@ -1,0 +1,42 @@
+/*h1
+{
+    text-align: center;
+    font-weight: 500;
+}
+
+h2
+{
+    text-align: center;
+}
+
+h3
+{
+    text-align: center;
+    text-decoration: purple dashed overline;
+}
+
+h4{
+    text-align: center;
+
+    text-decoration:brown dotted line-through;
+}
+
+p
+{
+    font-weight: 900;
+    text-decoration: green underline wavy;
+    text-align: center;
+}*/
+
+h1
+{
+    text-align: center;
+    font-family: league spartan;
+    color: #ffa511;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: teal double underline;
+    text-transform: uppercase;
+}

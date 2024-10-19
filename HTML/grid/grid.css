@@ -1,0 +1,80 @@
+#gridmain
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 500px;
+    background-color: azure;
+    border: 2px solid black;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 5px 5px;
+}
+
+.blocks
+{
+    background-color: pink;
+
+}
+
+#he
+{
+    grid-column: 1/span 12;
+}
+#si
+{
+    grid-row: 2/span 10;
+    grid-column: 1/span 3;
+}
+#nav
+{
+    grid-column: 4/span 6 ;
+}
+
+#ad
+{
+    grid-column: 10/span 3;
+    grid-row: 2/span 10;
+}
+#mains
+{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+}
+#foot
+{
+    grid-column: 1/span 12;
+}
+
+ @media(max-width:720px)   /*-----------queries*/
+{
+#he
+{
+    grid-column: 1/span 12;
+}
+#si
+{
+    grid-row: 3/span 9;
+    grid-column: 1/span 3;
+}
+#nav
+{
+    grid-column: 1/span 12 ;
+}
+
+#ad
+{
+    grid-row: 12/span 1;
+    grid-column: 1/span 3;
+}
+#mains
+{
+    grid-column: 4/span 9;
+    grid-row: 3/span 9;
+}
+#foot
+{
+    grid-column: 4/span 9;
+}
+}
