@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "ig": "^0.0.5",
+    "nodemon": "^3.1.7"
   }
 }
